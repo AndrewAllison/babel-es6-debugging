@@ -1,0 +1,37 @@
+{
+  "name": "babel-es6-debugging",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cm": "git add -A && git cz",
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndrewAllison/babel-es6-debugging.git"
+  },
+  "keywords": [],
+  "author": "Andrew Allison <andrew.allison@digitalinfamy.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndrewAllison/babel-es6-debugging/issues"
+  },
+  "homepage": "https://github.com/AndrewAllison/babel-es6-debugging#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "dotenv": "^8.2.0",
+    "nodemon": "^1.19.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
